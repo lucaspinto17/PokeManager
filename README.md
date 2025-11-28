@@ -14,18 +14,16 @@ Como uma nova Pokedex, com voce podendo colocar o seu time favorito e muito mais
 ## 🚀 Como Executar:
 
 ### Pré-requisitos:
-- Java JDK 11+
+- Java JDK 21+
 - VS Code com extensão Java
 
 ### Passos:
 1. **Baixe o projeto** e extraia na pasta `PokeManager`
 2. **Abra no VS Code** a pasta `PokeManager`
-3. **Execute no terminal:**
+3. **Execute no terminal (Linux/macOS):**
+	```bash
+	./mvnw exec:java
 	```
-    .\mvnw.cmd exec:java
-	```
-🗄️ Banco SQLite:
-Arquivo pokedb.db é criado automaticamente
 
 Não precisa instalar nada!
 
@@ -51,7 +49,7 @@ Adicione Pokemon (máximo 6)
 Visualize, remova ou limpe o time
 
 🛠️ Tecnologias:
-Java 11
+Java 21
 
 SQLite
 
@@ -68,7 +66,8 @@ PokéAPI
 ### **No VS Code:**
 1. **Terminal → New Terminal**
 2. **Execute:**
-	```.\mvnw.cmd exec:java
+	```bash
+	./mvnw exec:java
 	```
 O que acontece:
  SQLite cria automaticamente o arquivo pokedb.db

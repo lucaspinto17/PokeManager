@@ -14,17 +14,18 @@ Como uma nova Pokedex, com voce podendo colocar o seu time favorito e muito mais
 ## 🚀 Como Executar:
 
 ### Pré-requisitos:
-- Java JDK 11+
+### Pré-requisitos:
+- Java JDK 21+
 - VS Code com extensão Java
 
 ### Passos:
 1. **Baixe o projeto** e extraia na pasta `PokeManager`
 2. **Abra no VS Code** a pasta `PokeManager`
-3. **Execute no terminal:**
+	./mvnw exec:java
 	```
     .\mvnw.cmd exec:java
 	```
-🗄️ Banco SQLite:
+	./mvnw exec:java
 Arquivo pokedb.db é criado automaticamente
 
 Não precisa instalar nada!
