@@ -1,0 +1,15 @@
+com\pokemanager\model\PokemonAbility.class
+com\pokemanager\model\PokemonTeam.class
+com\pokemanager\controller\MenuController.class
+com\pokemanager\model\PokemonType$Type.class
+com\pokemanager\service\PokemonTeamService.class
+com\pokemanager\Main.class
+com\pokemanager\api\JsonObject.class
+com\pokemanager\model\Pokemon.class
+com\pokemanager\api\PokeAPIClient.class
+com\pokemanager\dao\PokemonTeamDAO.class
+com\pokemanager\service\PokemonService.class
+com\pokemanager\dao\PokemonDAO.class
+com\pokemanager\model\PokemonAbility$Ability.class
+com\pokemanager\config\DatabaseConfig.class
+com\pokemanager\model\PokemonType.class
