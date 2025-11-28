@@ -1,0 +1,14 @@
+## Local generated files to ignore
+# SQLite local DB created at runtime
+**/pokedb.db
+
+# Local downloaded jars and helper libs
+**/lib/
+
+# Maven local folders (build output)
+**/target/
+
+# OS IDE artifacts
+.idea/
+*.iml
+*.log
